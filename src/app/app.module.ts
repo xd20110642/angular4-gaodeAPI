@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AmapComponent } from './amap/amap.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {RouterModule, Routes} from '@angular/router';
+import { HotComponent } from './hot/hot.component';
 
 const router: Routes = [
   {path: '', component: AmapComponent},
@@ -14,7 +15,8 @@ const router: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    AmapComponent
+    AmapComponent,
+    HotComponent
   ],
   imports: [
     BrowserModule,
