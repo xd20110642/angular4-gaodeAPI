@@ -10,7 +10,7 @@ import { HotComponent } from './hot/hot.component';
 
 const router: Routes = [
   {path: '', component: AmapComponent},
-  // {path:}
+  {path: 'hot', component: HotComponent}
 ]
 @NgModule({
   declarations: [
